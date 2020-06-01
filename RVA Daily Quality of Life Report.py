@@ -1,6 +1,6 @@
 #! python3
 #Author: Joe DeFilippo
-# Get today's hourly weather and allergy forecast in Richmond,
+# Get today's hourly weather and allergy forecast in Richmond, VA
 # using Geckodriver/Firefox and email it to distribution list
 
 import datetime, smtplib, ssl, time
