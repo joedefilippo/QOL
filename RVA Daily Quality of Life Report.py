@@ -17,7 +17,7 @@ def sendEmail(content):
     port = 587  # For starttls
     smtp_server = 'smtp.gmail.com'
     sender_email = 'pythonjoed@gmail.com'
-    receiver_email = ['seema.defilippo@gmail.com', 'joseph.j.defilippo@gmail.com']
+    receiver_email = [open('C:\\Users\\User\\Desktop\\distribution_list.txt').read()]
 
     password = open('C:\\Users\\User\\Desktop\\pw.txt').read()
 
